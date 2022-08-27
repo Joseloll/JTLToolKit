@@ -60,8 +60,8 @@ def file():
          file2 = bind.read()
     output = Write.Input('Enter The Ouput Field Name ->', Colors.purple_to_blue, interval=0.01)
     with open(f"{output}", "wb") as merge:
-         merged = file1 + file2
-         merge.write(merged)
+         binded = file1 + file2
+         merge.write(binded)
          Write.Print("File Binding Was Sucessfull", Colors.blue_to_green)
          time.sleep(2)
          os.system('cls')
