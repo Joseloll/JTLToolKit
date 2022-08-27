@@ -1,4 +1,4 @@
-# JTLToolKit
+# JTokenLoggingToolKit
 ![image](https://user-images.githubusercontent.com/106576578/187049903-e8e16380-c055-4387-804c-e1885b9e5762.png)
 
 # Features
