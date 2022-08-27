@@ -52,10 +52,10 @@ def menu():
 
 
 def file():
-    exe = Write.Input('Enter The First Exe You Wanna Bind ->', Colors.purple_to_blue, interval=0.01)
+    exe = Write.Input('Enter The 1st Exe You Wanna Bind ->', Colors.purple_to_blue, interval=0.01)
     with open(f"{exe}", "rb") as bind:
          file1 = bind.read()
-    exes = Write.Input('Enter The First Exe You Wanna Bind ->', Colors.purple_to_blue, interval=0.01)
+    exes = Write.Input('Enter The 2nd Exe You Wanna Bind ->', Colors.purple_to_blue, interval=0.01)
     with open(f"{exes}", "rb") as bind:
          file2 = bind.read()
     output = Write.Input('Enter The Ouput Field Name ->', Colors.purple_to_blue, interval=0.01)
