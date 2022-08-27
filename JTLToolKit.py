@@ -97,7 +97,7 @@ def login():
 def tool():
     choice = Write.Input('1. Webhook Deleter Or 2. Webhook Checker ->', Colors.purple_to_blue, interval=0.01)
     if choice == "1":
-        webhook = Write.Input('Enter The Webook You Wanna Delete->', Colors.blue_to_purple, interval=0.01)
+        webhook = Write.Input('Enter The Webhook You Wanna Delete->', Colors.blue_to_purple, interval=0.01)
         delete = requests.get(webhook)
         if delete.status_code == 404:
             Write.Print(f"Webhook Failed To Delete", Colors.blue_to_red)
@@ -112,7 +112,7 @@ def tool():
         
             
     elif choice == "2":
-          webhook = Write.Input('Enter The Webook You Wanna Check->', Colors.blue_to_purple, interval=0.01)
+          webhook = Write.Input('Enter The Webhook You Wanna Check->', Colors.blue_to_purple, interval=0.01)
           r = requests.get(webhook)
           if r.status_code == 200:
             Write.Print(f"Webhook Is Valid", Colors.blue_to_green)
