@@ -3,7 +3,6 @@
 
 # Features
 -  File Binder
-Discord Webhook Tool
 - Discord Token Login 
 - Info About Discord Token
 - Discord Token Checker
