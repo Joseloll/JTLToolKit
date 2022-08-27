@@ -29,7 +29,7 @@ def menu():
                              [5] Discord Token Info
                              [6] Roblox Cookie Checker/Information
                              [7] Exit
-                             Enter A Option -> """, Colors.blue_to_purple, interval=0.00)
+                             Enter A Option -> """, Colors.blue_to_purple, interval=0.005)
         if choices == "1":
             file()
         elif choices == "2":
